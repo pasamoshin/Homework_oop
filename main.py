@@ -140,12 +140,12 @@ class WorkReviewer(WorkPerson):
                 '\nЗакрепленные курсы: ' + ', '.join(course.course for course in self.person.reviewer_courses))
 
 
-print(WorkStudent(1))
-print(WorkLecturer(1))
+# print(WorkStudent(1))
+# print(WorkLecturer(1))
 # WorkStudent.rate_grade_lecturer(1, 1, 'Python', 8)
-WorkReviewer.rate_grade_student(2, 1, 'Python', 8)
-WorkStudent.add_course_progress(2, 'Git')
-print(WorkStudent(2))
+# WorkReviewer.rate_grade_student(2, 1, 'Python', 8)
+# WorkStudent.add_course_progress(2, 'Git')
+# print(WorkStudent(2))
 
-WorkLecturer.add_course(1, 'JS')
+# WorkLecturer.add_course(1, 'JS')
 # print(WorkStudent(1) > WorkStudent(2))
